@@ -1,0 +1,43 @@
+<!---looping exercise--->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DES157 CH2 Exercise</title>
+    <style>
+      * {
+        margin: 0px; padding: 0px
+      }
+
+      body {
+        font-family: Verdana, Geneva, sans-serif;
+        color: white;
+        background-color: #333;
+        font-size: 11px;
+        margin: 24px;
+      }
+
+      h1 {
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chapter 2: Looping Triangle</h1>
+    <h2>Open the console to see the results of the script.</h2>
+    <script>
+
+      var hashtag = '#';  // the variable to be printed
+      var x;              // the iterator
+
+      //iterate 7 times
+      for (x = 1; x <= 7; x++) {
+        console.log(hashtag);
+        // add a '#' each time
+        hashtag += '#'
+      }
+    </script>
+  </body>
+
+</html>

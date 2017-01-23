@@ -1,0 +1,49 @@
+<!---minimum exercise--->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DES157 CH3 Exercise</title>
+    <style>
+      * {
+        margin: 0px; padding: 0px
+      }
+
+      body {
+        font-family: Verdana, Geneva, sans-serif;
+        color: white;
+        background-color: #333;
+        font-size: 11px;
+        margin: 24px;
+      }
+
+      h1 {
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chapter 3: Minimum</h1>
+    <h2>Open the console to see the results of the script.</h2>
+    <script>
+      // return the smaller number
+      var min = function (x,y) {
+        if (x < y) {                  // check if x is smaller
+          return x;
+        } else if (x > y) {           // if not, y should be smaller
+          return y;
+        } else {                      // just in case the numbers are equal
+          return 0;
+        }
+      }
+
+      console.log(min(0, 10));
+      // → 0
+      console.log(min(0, -10));
+      // → -10
+
+    </script>
+  </body>
+
+</html>
