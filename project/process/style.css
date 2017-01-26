@@ -1,6 +1,7 @@
 body {
   background-color: #d3ebee;
   font-family: helvetica;
+  color: #305459;
 }
 
 header {
@@ -13,8 +14,8 @@ header {
 }
 
 h1 {
-  font-size: 20px;
   color: #d3ebee;
+  font-size: 20px;
   margin-left: 38%;
   margin-top: 5px;
 }
@@ -34,4 +35,14 @@ article {
 p {
     font-size: 15px;
     color: #305459;
+}
+
+figure {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: underline;
+  color: #305459;
 }
