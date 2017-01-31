@@ -47,6 +47,10 @@ h3 {
   right: 20px;
 }
 
+#date {
+  right: -230px;
+}
+
 p {
   font-size: 15px;
   color: #305459;
@@ -57,9 +61,17 @@ p {
   display: inline-block;
 }
 
+p a {
+  font-size: 15px;
+  color: #305459;
+  text-decoration: underline;
+}
+
 img {
   display: inline-block;
   float: right;
+  width: 250px;
+  height: 444px;
   position: relative;
   bottom: 350px;
   right: 20px;

@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+	background-color: #faf6d6;
+	font-family: 'Economica', sans-serif;
+	color: #2a3237;
+	height: 800px;
+}
+
+header, footer {
+	background-color: #547c96;
+	position: fixed;
+	z-index: 2;
+}
+
+header {
+	height: 100px;
+	top: 0%;
+	left: 0%;
+	right: 0%
+}
+
+h1, h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	padding-right: 60px;
+	margin: 10px;
+}
+
+#origami {
+	position: fixed;
+	top: 125px;
+	left: 20px;
+	z-index: 1;
+}
+
+main {
+	background-image: url("images/cootieCatcher.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	top: 125px;
+	right: 100px;
+	width: 900px;
+	height: 500px;
+	margin-bottom: 1600px;
+}
+
+form {
+	width: 500px;
+	position: relative;
+	left: 410px;
+}
+
+form[name=words] {
+	display: block;
+}
+
+form[name=numbers] {
+	display: none;
+	width: 160px;
+	left: 565px;
+	top: 150px;
+}
+
+div {
+	display: inline-block;
+	padding: 32px;
+}
+
+div:nth-child(2) {
+	position: relative;
+	bottom: 50px;
+}
+
+h3, input {
+	text-align: center;
+	position: static;
+	top: 0%;
+}
+
+input {
+	display: block;
+	background-color: #d5dce4;
+	border: 1px solid #547c96;
+	width: 160px;
+	height: 18px;
+	margin: 5px;
+	font-family: 'Economica', sans-serif;
+	color: #2a3237;
+}
+
+*:focus {
+    outline: none;
+}
+
+form[name=words] input[type=reset], form[name=words] input[type=submit] {
+	position: absolute;
+	left: 155px;
+}
+
+form[name=words] input[type=reset] {
+	top: 530px;
+}
+
+form[name=words] input[type=submit] {
+	top: 510px;
+}
+
+form[name=numbers] input[type=reset], form[name=numbers] input[type=submit] {
+	position: absolute;
+	left: 0px;
+}
+
+form[name=numbers] input[type=reset] {
+	top: 380px;
+}
+
+form[name=numbers] input[type=submit] {
+	top: 360px;
+}
+
+#future {
+	display: none;
+	width: 350px;
+	position: relative;
+	left: 250px;
+	top: 150px;
+}
+
+h4 {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+p {
+	display: inline;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+footer {
+	height: 55px;
+	bottom: 0%;
+	right: 0%;
+	left: 0%;
+}
+
+section {
+	width: 600px;
+	margin: auto;
+}
+
+h5, a {
+	display: inline-block;
+	font-family: 'Economica', sans-serif;
+	color: #2a3237;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	padding-left: 30px;
+	margin: 10px;
+}
