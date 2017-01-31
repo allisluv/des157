@@ -26,17 +26,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
       //add words to the article
       document.getElementById('noun1').innerHTML= noun1;
-      document.getElementById('noun2').innerHTML= noun2;
-      document.getElementById('noun3').innerHTML= noun3;
+      document.getElementById('noun2').innerHTML= noun2 + ".";
+      document.getElementById('noun3').innerHTML= noun3 + ".";
       document.getElementById('noun4').innerHTML= noun4;
       document.getElementById('noun5').innerHTML= noun5;
       document.getElementById('noun6').innerHTML= noun6;
 
-      document.getElementById('verb1').innerHTML= verb1;
-      document.getElementById('verb2').innerHTML= verb2;
+      document.getElementById('verb1').innerHTML= verb1 + ",";
+      document.getElementById('verb2').innerHTML= verb2 + ".";
       document.getElementById('verb3').innerHTML= verb3;
 
-      document.getElementById('adj1').innerHTML= adj1;
+      document.getElementById('adj1').innerHTML= adj1 + ".";
       document.getElementById('adj2').innerHTML= adj2;
       document.getElementById('adj3').innerHTML= adj3;
 
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var num2 = document.numbers.num2.value;
       var num3 = document.numbers.num3.value;
       //add numbers to the article
-      document.getElementById('num1').innerHTML= num1;
+      document.getElementById('num1').innerHTML= num1 + "-leafed";
       document.getElementById('num2').innerHTML= num2;
       document.getElementById('num3').innerHTML= num3;
 
