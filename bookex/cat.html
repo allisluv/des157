@@ -1,0 +1,59 @@
+<!---looping exercise--->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DES157 CH13 Exercise</title>
+    <style>
+      * {
+        margin: 0px; padding: 0px
+      }
+
+      body {
+        font-family: Verdana, Geneva, sans-serif;
+        color: white;
+        background-color: #333;
+        font-size: 11px;
+        margin: 24px;
+      }
+
+      h1 {
+        margin-bottom: 24px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Chapter 13: The Cat's Hat</h1>
+    <h2>Open the console to see the results of the script.</h2>
+
+    <img src="img/cat.png" id="cat" style="position: absolute">
+    <img src="img/hat.png" id="hat" style="position: absolute">
+
+    <script>
+      var cat = document.querySelector("#cat");
+      var hat = document.querySelector("#hat");
+      // Your code here.
+
+      var angle = 0, lastTime = null;
+
+      function animate(time) {
+        if (lastTime != null)
+        angle += (time - lastTime) * 0.001;
+        lastTime = time;
+        var x = (Math.cos(angle) * 200) + 200;
+        var y = (Math.sin(angle) * 60) + 150;
+
+        cat.style.top = (y+150) + "px";
+        hat.style.top = (y-(Math.sin(angle) * 60)) + "px";
+        cat.style.left = x + "px";
+        hat.style.left = (x+50) + "px";
+        requestAnimationFrame(animate);
+      }
+
+      requestAnimationFrame(animate);
+    </script>
+  </body>
+
+</html>
