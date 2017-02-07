@@ -18,6 +18,7 @@ function growc() {
   cas_h.style.height = "220px";
 }
 
+
 //back to original size
 cas_h.addEventListener("mouseout", shrinkc);
 function shrinkc() {
