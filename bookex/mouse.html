@@ -29,8 +29,8 @@
             position: absolute;
             top: -10px;
             left: 0px;
-            height: 6px; width: 6px;
-            border-radius: 3px;
+            height: 16px; width: 16px;
+            border-radius: 8px;
             background: teal;
         }
 
@@ -64,12 +64,12 @@
     <h1>Chapter 14: Mouse Trail</h1>
     <h2>open the console to see the results of the script</h2>
 
-    <div class="trail" id="red"></div>
-    <div class="trail" id="orange"></div>
-    <div class="trail" id="yellow"></div>
-    <div class="trail" id="green"></div>
-    <div class="trail" id="blue"></div>
     <div class="trail" id="violet"></div>
+    <div class="trail" id="blue"></div>
+    <div class="trail" id="green"></div>
+    <div class="trail" id="yellow"></div>
+    <div class="trail" id="orange"></div>
+    <div class="trail" id="red"></div>
 
 
     <script>
@@ -79,6 +79,21 @@
         var green = document.getElementById('green');
         var blue = document.getElementById('blue');
         var violet = document.getElementById('violet');
+
+/*
+var tipTimer;
+
+document.body.addEventListener ('mousemove', function(){
+  console.log('mouseover on eat');
+  tipTimer = setTimeout(showEatTip, 1000);
+});
+
+function showEatTip(){
+  orange.style.top = clientY + "px";
+  orange.style.left = clientX + "px";
+}
+
+*/
 
         addEventListener("mousemove", function(){
           red.style.top=event.pageY + "px";
