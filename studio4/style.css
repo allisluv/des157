@@ -177,8 +177,6 @@ div {
   width: 250px;
   background-color: red;
   color: black;
-  opacity = 0;
-  transition: opacity 2s;
   position: absolute;
   top: 380px;
   left: 40%;
