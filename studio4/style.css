@@ -84,7 +84,7 @@ nav {
   width: 25%;
   height: 70%;
   margin: 20px;
-  border-left: 2px solid red;
+  border-left: 2px solid darkred;
   position: absolute;
   right: 3%;
   top: 80px;
@@ -114,7 +114,7 @@ main {
 h2 {
   font-size: 50px;
   margin-bottom: 20px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid darkred;
 }
 
 span {
@@ -175,8 +175,8 @@ div {
   text-align: center;
   height: 20px;
   width: 250px;
-  background-color: red;
-  color: black;
+  background-color: darkred;
+  color: white;
   position: absolute;
   top: 380px;
   left: 40%;
