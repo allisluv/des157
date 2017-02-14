@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //new global timer variable
     var time;
 
+//reset back to the first quation
     document.f.onreset = back;
 
     function back() {
@@ -160,62 +161,68 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     }
 
+//when any of the answers is clicked...
     once.addEventListener('click', show2);
     twice.addEventListener('click', show2);
     three.addEventListener('click', show2);
-
+//...go to the next question
     function show2() {
       q1.className = "hide";
       q2.className = "show";
     }
 
+//when any of the answers is clicked...
     assigned.addEventListener('click', show3);
     els.addEventListener('click', show3);
     due.addEventListener('click', show3);
-
+//...go to the next question
     function show3() {
       q2.className = "hide";
       q3.className = "show";
     }
 
+//when any of the answers is clicked...
     less.addEventListener('click', show4);
     more.addEventListener('click', show4);
     count.addEventListener('click', show4);
-
+//...go to the next question
     function show4() {
       q3.className = "hide";
       q4.className = "show";
     }
 
+//when any of the answers is clicked...
     away.addEventListener('click', show5);
     finish.addEventListener('click', show5);
     remember.addEventListener('click', show5);
-
+//...go to the next question
     function show5() {
       q4.className = "hide";
       q5.className = "show";
     }
 
+//when any of the answers is clicked...
     phone.addEventListener('click', show6);
     comp.addEventListener('click', show6);
     water.addEventListener('click', show6);
-
+//...go to the next question
     function show6() {
       q5.className = "hide";
       q6.className = "show";
     }
 
+//when any of the answers is clicked...
     apps.addEventListener('click', answer);
     dnd.addEventListener('click', answer);
     drink.addEventListener('click', answer);
-
+//...open an alertbox
     function answer() {
       var finish = new Date();
       var fTime = finish.getTime();
       var timeWasted;
-
+//calculate time spent on quiz
       timeWasted = Math.round((fTime - sTime)/1000);
-
+//tell the user they wasted their time
       alert('You have been doing this quiz for ' + timeWasted + ' seconds. There are countless better uses of your time. You clearly spend way too much time on pointless internet distrations. In the future, you should be more aware of how your electronics distract you. Now, go do something productive for a change!');
     }
 
