@@ -117,6 +117,10 @@ section {
 	opacity: 1;
 }
 
+h2 {
+	display: none;
+}
+
 footer {
 	position: fixed;
 	bottom: 0%;
