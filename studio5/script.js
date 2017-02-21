@@ -2,11 +2,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
+//get the elements that I will be changing
 var colors = document.getElementById('colors');
+colors.style.backgroundColor="white";
 var board = document.getElementById('board');
 
-addEventListener("swipeleft", clear());
-addEventListener("swiperight", clear());
+//reset the page
+document.f.onreset = clear;
 function clear() {
   colors.style.backgroundColor="white";
   colors.style.color="black";

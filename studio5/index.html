@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Color mixing</title>
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link href="style.css" rel="stylesheet" />
     <script src='script.js' type="text/javascript"></script>
 </head>
@@ -14,7 +11,6 @@
 <body>
     <!--add your html here-->
     <h1>Color Mixing</h1>
-    <aside>*Side swipe to clear page</aside>
     <main id="board">
       <div id="red" draggable="true" ondragstart="drag(event)" ondragend="dropR(event)"></div>
       <div id="yellow" draggable="true" ondragstart="drag(event)" ondragend="dropY(event)"></div>
@@ -22,6 +18,9 @@
       <div id="black" draggable="true" ondragstart="drag(event)" ondragend="dropK(event)"></div>
       <div id="white" draggable="true" ondragstart="drag(event)" ondragend="dropW(event)"></div>
       <section id="colors" ondrop="drop(event)" ondragover="allowDrop(event)"><h2>Drag colors here.</h2>Drag colors here.</section>
+      <form name="f">
+        <input type="reset"></input>
+      </form>
     </main>
 
     <!--add links to validators-->

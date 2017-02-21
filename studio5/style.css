@@ -121,6 +121,11 @@ h2 {
 	display: none;
 }
 
+input {
+	position: absolute;
+	top: 450px;
+}
+
 footer {
 	position: fixed;
 	bottom: 0%;
