@@ -38,17 +38,21 @@ h4 {
 }
 
 main {
-  width: 795px;
-  height: 375px;
+  width: 960px;
+  height: 340px;
   margin: auto;
 }
 
 main div {
-  width: 225px;
+  width: 200px;
   height: 300px;
   margin: 20px;
   background-color: #91bdc3;
   float: left;
+}
+
+em {
+  font-size: 12px;
 }
 
 h2 {
