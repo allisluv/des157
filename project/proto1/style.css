@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* add your custom css here */
+
+body {
+  background-color: #36373d;
+  color: #eaeaec;
+  font-family: helvetica;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+}
+
+header img {
+  margin: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+header section {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+header p {
+  font-size: 30px;
+  margin: 25px;
+}
+
+#black {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+#red {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+#yellow {
+  background-color: yellow;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+#blue {
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+#white {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  width: 100%;
+  display: inline-block;
+  font-size: 50px;
+  margin: 15px;
+  text-align: center;
+}
+
+main {
+  margin-top: 10%;
+}
+
+div {
+  display: inline-block;
+  width: 49%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #eaeaec;
+  color: #36373d;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0%;
+}
+
+ul {
+  width: 750px;
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+  padding-right: 30px;
+  border-right: 3px solid #eaeaec;
+}
+
+li, li a {
+  font-size: 20px;
+  color: #eaeaec;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
