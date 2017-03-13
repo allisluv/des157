@@ -8,18 +8,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function setup() {
       var myCanvas = createCanvas(725, 425);
       myCanvas.parent('mySketch');
-      background(#36373d);
     }
 
     function draw () {
-
-      stroke(#eaeaeb);
+      colorMode(HSB);
+      stroke(235, 1, 92);
       strokeWeight(3);
-      fill(#36373d);
+      fill(233, 10, 24);
       rect(0, 0, 723, 423);
-
-      ellipse(150, 150, 50, 50);
-
 
 
     }
