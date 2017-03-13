@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // all other js here
     var menu = document.getElementById('menu');
     var arrow = document.getElementById('arrowSide');
-    console.log(arrow);
     var list = document.getElementsByClassName('nav');
     var start = 20;
     arrow.style.webkitTransform = "rotate(0deg)";

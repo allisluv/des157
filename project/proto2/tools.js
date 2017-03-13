@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var arrow = document.getElementById('arrowUp');
     var color = document.getElementById('color');
     var size = document.getElementById('size');
+    var save = document.getElementById('save');
     arrow.style.webkitTransform = "rotate(0deg)";
 
     tools.addEventListener("click", open_close)
@@ -16,10 +17,12 @@ document.addEventListener("DOMContentLoaded", function() {
         arrow.style.webkitTransform = "rotate(180deg)";
         color.className = "hide";
         size.className = "hide";
+        save.className = "hide";
       } else {
         arrow.style.webkitTransform = "rotate(0deg)";
         color.className = "show";
         size.className = "show";
+        save.className = "show";
       }
       return false;
     }
