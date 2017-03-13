@@ -18,8 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
       fill(#36373d);
       rect(0, 0, 723, 423);
 
-      var color = #eaeaeb;
-      var size = #36373d;
+      ellipse(150, 150, 50, 50);
+
+
+
     }
 
 
