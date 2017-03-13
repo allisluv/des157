@@ -3,45 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>The Art of Collaboration Prototype One Sketch Page</title>
+    <title>Prototype Two Sketch Page</title>
     <link href="style.css" rel="stylesheet" />
+    <script src='header.js' type="text/javascript"></script>
+    <script src='tools.js' type="text/javascript"></script>
     <script src='script.js' type="text/javascript"></script>
+    <!--link to the p5 javascript library-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.21/p5.js"></script>
 </head>
 
 <body>
 <header>
   <nav>
-    <img class="show" src="images/closed.png" height="50" width="85" alt="Open Navigation Menu"/>
-    <ul class="hide">
-        <li class="here"><a href="home.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="sketch.html">Sketch Page</a></li>
-        <li><a href="#">Edit My Work</a></li>
-        <li><a href="#">View Portfolios</a></li>
+    <p id="menu">Menu</p>
+    <div id="arrowSide"></div>
+    <ul>
+        <a class="nav" href="#"><li>Back</li></a>
+        <a class="nav" href="home.html"><li>Home</li></a>
+        <a class="nav" href="#"><li>About</li></a>
+        <a class="nav" href="sketch.html"><li class="here">Sketch Page</li></a>
+        <a class="nav" href="#"><li>Portfolio Editor</li></a>
+        <a class="nav" href="#"><li>View Portfolios</li></a>
+        <a class="nav" href="login.html"><li>Sign Out</li></a>
     </ul>
   </nav>
   <h1>Sketch Book</h1>
   <section>
+    <div id="arrowUp"></div>
     <p id="tools">Tools</p>
-    <ul class="hide">
-        <li id="black"></li>
-        <li id="red"></li>
-        <li id="yellow"></li>
-        <li id="blue"></li>
-        <li id="white"></li>
+    <ul id="color" class="show">
+      <li id="black"></li>
+      <li id="red"></li>
+      <li id="redDark"></li>
+      <li id="orange"></li>
+      <li id="orangeDark"></li>
+      <li id="yellow"></li>
+      <li id="yellowDark"></li>
+      <li id="green"></li>
+      <li id="greenDark"></li>
+      <li id="blue"></li>
+      <li id="blueDark"></li>
+      <li id="purple"></li>
+      <li id="purpleDark"></li>
+      <li id="white"></li>
     </ul>
-    <ul class="hide">
-        <li id="black"></li>
-        <li id="red"></li>
-        <li id="yellow"></li>
-        <li id="blue"></li>
-        <li id="white"></li>
+    <ul id="size" class="show">
+      <li id="small"></li>
+      <li id="medium"></li>
+      <li id="large"></li>
     </ul>
   </section>
 </header>
 
 <main>
-  <section></section>
+  <section id="mySketch"></section>
 </main>
 
 </body>
