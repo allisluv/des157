@@ -62,15 +62,19 @@ var b;
       h = 235; s = 1; b = 92;
     });
     document.getElementById('small').addEventListener('click', function () {
-      siz = 10;
+      siz = 5;
     });
     document.getElementById('medium').addEventListener('click', function () {
       siz = 20;
     });
     document.getElementById('large').addEventListener('click', function () {
-      siz = 30;
+      siz = 35;
     });
-
+    document.getElementById('save').addEventListener('click', function () {
+      var c = get(0, 0, 725, 425);
+      localStorage.setItem("drawing", c);
+      location.href = "save.html";
+    });
 
 
 

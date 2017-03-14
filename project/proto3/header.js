@@ -4,11 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
     // all other js here
-    var here = document.getElementById('here');
-    var text = here.style.color.value;
-    var back = here.style.backgroundColor.value;
-    here.style.color = back;
-    here.style.backgrounColor = text;
 
     var menu = document.getElementById('menu');
     var arrow = document.getElementById('arrowSide');
@@ -18,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     menu.addEventListener("click", open_close)
 
-  /*  arrow.addEventListener("click", open_close) */
+    arrow.addEventListener("click", open_close)
 
     function open_close() {
       if (arrow.style.webkitTransform == "rotate(0deg)") {
