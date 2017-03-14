@@ -1,3 +1,11 @@
+if (typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+    console.log("good");
+} else {
+    // Sorry! No Web Storage support..
+    console.log("didn't work");
+}
+
 var siz;
 var h;
 var s;
@@ -71,8 +79,11 @@ var b;
       siz = 35;
     });
     document.getElementById('save').addEventListener('click', function () {
-      var c = get(0, 0, 725, 425);
+      /*var c = get();
+      console.log(c);
       localStorage.setItem("drawing", c);
+      console.log(localStorage.getItem("drawing"));
+      localStorage.setItem("drawing", "Smith");*/
       location.href = "save.html";
     });
 
