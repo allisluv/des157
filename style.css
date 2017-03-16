@@ -39,13 +39,13 @@ h4 {
 
 main {
   width: 960px;
-  height: 340px;
+  height: 500px;
   margin: auto;
 }
 
 main div {
   width: 200px;
-  height: 300px;
+  height: 400px;
   margin: 20px;
   background-color: #91bdc3;
   float: left;
