@@ -378,7 +378,7 @@ label {
   margin-top: 20px;
 }
 
-span {
+#ind {
   width: 655px;
   height: 455px;
   display: block;
@@ -397,7 +397,7 @@ span {
   margin: 5px;
 }
 
-span img {
+div img {
   display: inline-block;
   width: 150px;
   height: 100px;
