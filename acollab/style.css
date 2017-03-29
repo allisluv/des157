@@ -42,3 +42,60 @@ table {
 }
 
 /* Website style */
+
+body {
+  background-color: #36373d;
+  color: #36373d;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 25px;
+  text-align: center;
+  color: #b6a3ce;
+  font-family: 'Handlee', cursive;
+}
+
+main {
+  width: 700px;
+  margin: auto;
+}
+
+article {
+  width: 600px;
+  padding: 20px;
+  margin: 40px;
+  background-color: #a4d8c3;
+}
+
+p {
+    font-size: 15px;
+}
+
+figure {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+#erin {
+  margin: 50px;
+}
+
+a {
+  text-decoration: underline;
+  color: #36373d;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 75px 35px 30px 35px;
+  padding-bottom: 15px;
+}
